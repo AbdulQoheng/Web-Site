@@ -1,0 +1,222 @@
+body{
+  background-color:grey;
+  margin-top: 0px;
+  font-family: arial;
+}
+
+.kolom{
+  width: 900px;
+  margin: auto;
+  background-color: white;
+}
+
+/* Nav */
+
+.nav {
+	margin: auto;
+  width: 100%;
+  background-color: grey;
+	
+}
+.aktif {
+  text-decoration: none;
+  background-image: linear-gradient(blue, blue);
+  background-position: 0 1em;
+  background-size: 1px 2px;
+  background-repeat: repeat-x;
+}
+.blog{
+  margin-right: 30%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav ul {
+  position: absolute;
+	list-style: none;
+	background:transparent;
+	width: 890px;
+	display: inline-table;
+
+}
+
+.nav ul li {
+	float: left;
+	
+}
+
+.nav ul li a {
+	display:block;
+	padding: 20px;
+	text-decoration: none;
+
+	color:white;
+	font-weight: bold;
+	
+}
+.nav ul li:hover a {
+	background:darkslategray;
+  color:white;
+}
+
+/* End Nav */
+
+/* Benner */
+.benner img{
+  width: 100%;
+  height: 450px;
+  padding-top: 0px;
+}
+/* End Benner */
+
+/* konten */
+.konten{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.artikel{
+  width: 70%;
+  float: left;
+}
+
+.cf{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.subartikel h2{
+  padding-left: 5px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+.subartikel h3{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  padding-left: 20px;
+  color: grey;
+}
+
+.subartikel p{
+  font-size: 18px;
+  text-align: justify;
+}
+
+.subartikel img{
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+}
+
+
+
+/* End Konten */
+
+/* sidebar */
+.sidebar{
+  width: 26%;
+  float: right;
+}
+
+.sidebar h1{
+  font-size: 20px;
+  background-color: grey;
+  padding: 5px;
+  text-align: center;
+    
+  color: white;
+}
+
+
+.sidebar p{
+  font-size: 15px;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.terbaru ul{
+  list-style: none;
+  padding-left: 5px;
+}
+
+.terbaru ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  color: blue;
+}
+
+/* End sidebar */
+
+/* footer */
+.footer{
+  line-height:50px;
+  background:#333;
+  color:#fff;
+}
+.footer p{
+  text-align: center;
+}
+/* End footer */
+
+/* Responsife */
+
+@media screen and (max-width: 760px){
+  
+  .kolom{
+    width: 350px;
+    margin: auto;
+    background-color: white;
+  }
+
+  .blog{
+    margin-right: 90px;
+  }
+
+  .nav ul {
+    position: relative;
+    list-style: none;
+    background:grey;
+    width: 100%;
+    display: inline-table;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+  
+  }
+  .nav ul li a {
+    display:block;
+    padding: 20px;
+    text-decoration: none;
+  
+    color:white;
+    font-weight: bold;
+    
+  }
+  .nav ul li:hover a {
+    background:darkslategray;
+    color:white;
+  }
+  .terbaru ul{
+    padding-left: 0px;
+  }
+  .terbaru ul li a{
+    text-decoration: none;
+    font-size: 10px;
+    color: blue;
+    padding: 0px;
+  }
+  .sidebar h1{
+    font-size: 15px;
+  }
+  .sidebar p{
+    font-size: 10px;
+  }
+  
+  
+}
+
+
